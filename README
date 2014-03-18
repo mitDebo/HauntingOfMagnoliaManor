@@ -1,0 +1,7 @@
+This is the source code for the Haunting of Magnolia Manor, which can be played here: http://www.kongregate.com/games/mitDebo/the-haunting-of-magnolia-manor
+
+The game is built on the flixel framework, so make sure it's in your library path if you try to compile. Flixel is a wonderful AS3 game framework by Adam Saltsman. You can find it here: http://flixel.org/
+
+I believe I removed all references to Jimmy's music for the game, as I don't want to provide a place for someone to get it for free. Jimmy did an amazing job with the music in the game, and if you're interested, you can find it as his Bandcamp page: http://music.biggiantcircles.com/album/the-haunting-of-magnolia-manor-soundtrack
+
+I offer this source as learning material so that you may see how I solved the many issues that arrise in making a game. I please ask that you use this trust responsibly and not try to pass of this game as your own original creation. If you're unsure if something is stepping over some sort of line, do not hesitate to contact me (kel@polymath-games.com). I'm a friendly guy, and I'm more than willing to help you out.

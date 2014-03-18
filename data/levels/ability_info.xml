@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<level name="level01.oel">
+		<ability name="scare">
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>1</Inventory>
+		</ability>
+	</level>
+	<level name="level02.oel">
+		<ability name="scare">
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>1</Inventory>
+		</ability>
+	</level>	
+	<level name="level03.oel">
+		<LevelInfo>
+			<Header>New Ability!</Header>
+			<Body>You've unlocked the ability to possess people. A few moments after you possess someone, that person will transform and frighten off anyone nearby.</Body>
+		</LevelInfo>
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>1</Inventory>
+		</ability>
+		<ability name="scare">
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+	</level>
+	<level name="level04.oel">
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>1</Inventory>
+		</ability>
+		<ability name="scare">
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+	</level>
+	<level name="level05.oel">
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>1</Inventory>
+		</ability>
+		<ability name="scare">
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+	</level>
+	<level name="level06.oel">
+		<LevelInfo>
+			<Header>New Ability!</Header>
+			<Body>You've received the Onryo - a vengeful spirit. The Onryo wanders a room scaring random inhabitants every few seconds. The Onryo can also travel to occupy a new room at your command.</Body>
+		</LevelInfo>
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>1</Inventory>
+		</ability>
+		<ability name="scare">
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+	</level>
+	<level name="level07.oel">
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>1</Inventory>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+	</level>
+	<level name="level08.oel">
+		<LevelInfo>
+			<Header>Level Up!</Header>
+			<Body>Your Scare ability has increased in efficiency. It now takes less time for your Scare ability to recharge.</Body>
+		</LevelInfo>
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+	</level>	
+	<level name="level09.oel">
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>1</Inventory>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+	</level>
+	<level name="level10.oel">
+		<LevelInfo>
+			<Header>New Ability!</Header>
+			<Body>You've unlocked Ectoplasm! Anyone that steps into ectoplasm has their walking speed greatly decreased temporarily.</Body>
+		</LevelInfo>
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>1</Inventory>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+		<ability name="ectoplasm">
+			<Inventory>2</Inventory>
+			<Duration>5</Duration>
+			<Amount>0.5</Amount>
+		</ability>
+	</level>
+	<level name="level11.oel">
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+		<ability name="ectoplasm">
+			<Inventory>2</Inventory>
+			<Duration>5</Duration>
+			<Amount>0.5</Amount>
+		</ability>
+	</level>
+	<level name="level12.oel">
+		<LevelInfo>
+			<Header>New Ability!</Header>
+			<Body>You've unlocked the Demon! You can place a large summoning circle on the ground that will summon forth a demon after a few moments, scaring off anyone close by.</Body>
+		</LevelInfo>
+		<ability name="haunt">
+			<Inventory>1</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+		<ability name="demon">
+			<Cooldown>12</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>5</Diameter>
+		</ability>
+	</level>
+	<level name="level13.oel">
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+		<ability name="demon">
+			<Cooldown>12</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>5</Diameter>
+		</ability>
+		<ability name="ectoplasm">
+			<Inventory>2</Inventory>
+			<Duration>5</Duration>
+			<Amount>0.5</Amount>
+		</ability>
+	</level>
+	<level name="level14.oel">
+		<LevelInfo>
+			<Header>Level Up!</Header>
+			<Body>You now have an additional haunt to use!</Body>
+		</LevelInfo>
+		<ability name="haunt">
+			<Inventory>2</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="demon">
+			<Cooldown>12</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>5</Diameter>
+		</ability>
+	</level>
+	<level name="level15.oel">
+		<ability name="haunt">
+			<Inventory>2</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+		<ability name="demon">
+			<Cooldown>12</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>5</Diameter>
+		</ability>
+	</level>
+	<level name="level16.oel">
+		<LevelInfo>
+			<Header>New Ability!</Header>
+			<Body>You can now seal a few doorways. With a door sealed, the guests will have to find new paths around the rooms. However, all rooms must remain accessable from each other.</Body>
+		</LevelInfo>
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>1</Inventory>
+		</ability>
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+		<ability name="sealdoor">
+			<Inventory>2</Inventory>
+		</ability>
+	</level>
+	<level name="level17.oel">
+		<ability name="haunt">
+			<Inventory>2</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>3</Diameter>
+		</ability>
+		<ability name="sealdoor">
+			<Inventory>2</Inventory>
+		</ability>
+	</level>
+	<level name="level18.oel">
+		<LevelInfo>
+			<Header>Level Up!</Header>
+			<Body>The effective area of your possession now has a wider diameter!</Body>
+		</LevelInfo>
+		<ability name="haunt">
+			<Cooldown>10</Cooldown>
+			<Inventory>2</Inventory>
+		</ability>
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>4</Diameter>
+		</ability>
+		<ability name="sealdoor">
+			<Inventory>2</Inventory>
+			<Duration>5</Duration>
+			<Amount>0.5</Amount>
+		</ability>
+	</level>
+	<level name="level19.oel">
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>4</Diameter>
+		</ability>
+		<ability name="ectoplasm">
+			<Inventory>2</Inventory>
+			<Amount>0.5</Amount>
+			<Duration>5</Duration>
+		</ability>
+		<ability name="sealdoor">
+			<Inventory>2</Inventory>
+		</ability>
+	</level>
+	<level name="level20.oel">
+		<LevelInfo>
+			<Header>New Ability!</Header>
+			<Body>You've unlocked Death's Clutch! Place the many hands of death as a trap, and once someone walks over them, trigger them to frighten them off!</Body>
+		</LevelInfo>
+		<ability name="haunt">
+			<Inventory>2</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="deathsclutch">
+			<Inventory>2</Inventory>
+			<Diameter>5</Diameter>
+		</ability>
+	</level>
+	<level name="level21.oel">
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>4</Diameter>
+		</ability>
+		<ability name="deathsclutch">
+			<Inventory>2</Inventory>
+			<Diameter>5</Diameter>
+		</ability>
+	</level>
+	<level name="level22.oel">
+		<LevelInfo>
+			<Header>Level Up!</Header>
+			<Body>You've gained an additional ectoplasm</Body>
+		</LevelInfo>
+		<ability name="haunt">
+			<Inventory>2</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="ectoplasm">
+			<Inventory>3</Inventory>
+			<Amount>0.5</Amount>
+			<Duration>5</Duration>
+		</ability>
+		<ability name="deathsclutch">
+			<Inventory>2</Inventory>
+			<Diameter>5</Diameter>
+		</ability>
+	</level>
+	<level name="level23.oel">
+		<ability name="haunt">
+			<Inventory>2</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="demon">
+			<Cooldown>12</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>5</Diameter>
+		</ability>
+		<ability name="deathsclutch">
+			<Inventory>2</Inventory>
+			<Diameter>5</Diameter>
+		</ability>
+	</level>
+	<level name="level24.oel">
+		<LevelInfo>
+			<Header>Level Up!</Header>
+			<Body>Your demon now has a larger scare radius</Body>
+		</LevelInfo>
+		<ability name="ectoplasm">
+			<Inventory>3</Inventory>
+			<Amount>0.5</Amount>
+			<Duration>5</Duration>
+		</ability>
+		<ability name="sealdoor">
+			<Inventory>2</Inventory>
+		</ability>
+		<abliity name="deathsclutch">
+			<Inventory>2</Inventory>
+			<Diameter>5</Diameter>
+		</abliity>
+		<ability name="demon">
+			<Cooldown>12</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>6</Diameter>
+		</ability>
+	</level>
+	<level name="level25.oel">
+		<ability name="haunt">
+			<Inventory>2</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="deathsclutch">
+			<Inventory>2</Inventory>
+			<Diameter>5</Diameter>
+		</ability>
+		<ability name="sealdoor">
+			<Inventory>2</Inventory>
+		</ability>
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+	</level>
+	<level name="level26.oel">
+		<LevelInfo>
+			<Header>Level Up!</Header>
+			<Body>You've gained an additional door!</Body>
+		</LevelInfo>
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>4</Diameter>
+		</ability>
+		<ability name="demon">
+			<Cooldown>12</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>6</Diameter>
+		</ability>
+		<ability name="sealdoor">
+			<Inventory>3</Inventory>
+		</ability>
+	</level>
+	<level name="level27.oel">
+		<ability name="haunt">
+			<Inventory>2</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+		<ability name="ectoplasm">
+			<Inventory>3</Inventory>
+			<Amount>0.5</Amount>
+			<Duration>5</Duration>
+		</ability>
+		<ability name="sealdoor">
+			<Inventory>3</Inventory>
+		</ability>
+		<ability name="demon">
+			<Cooldown>12</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>6</Diameter>
+		</ability>
+	</level>
+	<level name="level28.oel">
+		<LevelInfo>
+			<Header>Level Up!</Header>
+			<Body>You've gained an additional Death's Clutch!</Body>
+		</LevelInfo>
+		<ability name="haunt">
+			<Inventory>2</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="ectoplasm">
+			<Inventory>3</Inventory>
+			<Amount>0.5</Amount>
+			<Duration>5</Duration>
+		</ability>
+		<ability name="deathsclutch">
+			<Inventory>3</Inventory>
+			<Diameter>5</Diameter>
+		</ability>
+	</level>
+	<level name="level29.oel">
+		<ability name="onryo">
+			<Cooldown>10</Cooldown>
+			<Amount>45</Amount>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>4</Diameter>
+		</ability>
+		<ability name="sealdoor">
+			<Inventory>3</Inventory>
+		</ability>
+		<ability name="ectoplasm">
+			<Inventory>3</Inventory>
+			<Amount>0.5</Amount>
+			<Duration>5</Duration>
+		</ability>
+	</level>
+	<level name="level30.oel">
+		<ability name="haunt">
+			<Inventory>2</Inventory>
+			<Cooldown>10</Cooldown>
+		</ability>
+		<ability name="scare">
+			<Cooldown>7.5</Cooldown>
+		</ability>
+		<ability name="demon">
+			<Cooldown>12</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>6</Diameter>
+		</ability>
+		<ability name="possess">
+			<Cooldown>8</Cooldown>
+			<Duration>5</Duration>
+			<Diameter>4</Diameter>
+		</ability>
+		<ability name="sealdoor">
+			<Inventory>3</Inventory>
+		</ability>
+		<ability name="ectoplasm">
+			<Inventory>3</Inventory>
+			<Amount>0.5</Amount>
+			<Duration>5</Duration>
+		</ability>
+	</level>
+</data>

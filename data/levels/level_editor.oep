@@ -1,0 +1,43 @@
+<project>
+	<name>Halloween Game</name>
+	<settings>
+		<defaultWidth>320</defaultWidth>
+		<defaultHeight>240</defaultHeight>
+		<workingDirectory>../</workingDirectory>
+	</settings>
+	<values>
+		<string name="ability1" default="haunt" />
+		<string name="ability2" default="scare" />
+		<string name="ability3" />
+		<string name="ability4" />
+		<string name="ability5" />
+		<string name="ability6" />
+		<integer name="goal" />
+		<integer name="time_limit" />
+	</values>
+	<tilesets>
+		<tileset name="floor" image="gfx/floor_tiles.png" tileWidth="8" tileHeight="8" paletteScale="2.0"/>
+		<tileset name="walls" image="gfx/wall_tiles.png" tileWidth="16" tileHeight="16" paletteScale="2.0" />
+		<tileset name="wall_tops" image="gfx/wall_tops.png" tileWidth="16" tileHeight="16" paletteScale="2.0" />
+	</tilesets>
+	<objects>
+		<object name="room" image="gfx/room_boundry.png" width="8" height="8">
+			<nodes drawObject="true" limit="1" lineMode="1" />
+		</object>
+		<object name="entrance" image="gfx/entrance.png" width="8" height="8">
+			<values>
+				<integer name="numOfGuests" />
+				<number name="minWalkingSpeed" default="15" />
+				<number name="maxWalkingSpeed" default="30" />
+				<number name="interval" default="1" />
+			</values>
+		</object>
+	</objects>
+	<layers>
+		<tiles name="floor" gridSize="8" exportTileSize="true" exportTileIDs="true" />
+		<objects name="rooms" gridSize="8" />
+		<objects name="entrances" gridSize="8" />
+		<tiles name="walls" gridSize="16" exportTileSize="true" exportTileIDs="true" />
+		<tiles name="wall_tops" gridSize="16" exportTileSize="true" exportTileIDs="true" />
+	</layers>
+</project>

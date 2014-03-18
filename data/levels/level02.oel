@@ -1,0 +1,202 @@
+<level ability1="haunt" ability2="scare" ability3="" ability4="" ability5="" ability6="" goal="5" time_limit="25">
+  <width>320</width>
+  <height>240</height>
+  <floor set="floor" tileWidth="8" tileHeight="8">
+    <tile id="3" x="120" y="112"/>
+    <tile id="3" x="120" y="120"/>
+    <tile id="3" x="128" y="120"/>
+    <tile id="3" x="136" y="120"/>
+    <tile id="3" x="144" y="120"/>
+    <tile id="3" x="152" y="120"/>
+    <tile id="3" x="160" y="120"/>
+    <tile id="3" x="168" y="120"/>
+    <tile id="3" x="176" y="120"/>
+    <tile id="3" x="184" y="120"/>
+    <tile id="3" x="184" y="112"/>
+    <tile id="3" x="176" y="112"/>
+    <tile id="3" x="168" y="112"/>
+    <tile id="3" x="160" y="112"/>
+    <tile id="3" x="152" y="112"/>
+    <tile id="3" x="144" y="112"/>
+    <tile id="3" x="136" y="112"/>
+    <tile id="3" x="128" y="112"/>
+    <tile id="5" x="112" y="112"/>
+    <tile id="5" x="112" y="120"/>
+    <tile id="5" x="96" y="128"/>
+    <tile id="5" x="88" y="128"/>
+    <tile id="5" x="80" y="128"/>
+    <tile id="5" x="72" y="128"/>
+    <tile id="5" x="72" y="120"/>
+    <tile id="5" x="72" y="112"/>
+    <tile id="5" x="80" y="104"/>
+    <tile id="5" x="80" y="112"/>
+    <tile id="5" x="80" y="120"/>
+    <tile id="5" x="96" y="120"/>
+    <tile id="5" x="96" y="112"/>
+    <tile id="5" x="96" y="104"/>
+    <tile id="5" x="88" y="104"/>
+    <tile id="5" x="88" y="112"/>
+    <tile id="5" x="88" y="120"/>
+    <tile id="5" x="200" y="112"/>
+    <tile id="5" x="200" y="120"/>
+    <tile id="5" x="216" y="104"/>
+    <tile id="5" x="216" y="112"/>
+    <tile id="5" x="216" y="128"/>
+    <tile id="5" x="216" y="120"/>
+    <tile id="5" x="240" y="120"/>
+    <tile id="5" x="240" y="128"/>
+    <tile id="5" x="232" y="128"/>
+    <tile id="5" x="224" y="128"/>
+    <tile id="5" x="224" y="120"/>
+    <tile id="5" x="224" y="112"/>
+    <tile id="5" x="224" y="104"/>
+    <tile id="5" x="232" y="104"/>
+    <tile id="5" x="232" y="120"/>
+    <tile id="5" x="232" y="112"/>
+    <tile id="5" x="240" y="112"/>
+    <tile id="5" x="240" y="104"/>
+    <tile id="5" x="240" y="88"/>
+    <tile id="5" x="248" y="88"/>
+    <tile id="3" x="192" y="112"/>
+    <tile id="3" x="192" y="120"/>
+    <tile id="5" x="72" y="88"/>
+    <tile id="5" x="64" y="88"/>
+    <tile id="0" x="64" y="96"/>
+    <tile id="1" x="72" y="96"/>
+    <tile id="1" x="80" y="96"/>
+    <tile id="1" x="88" y="96"/>
+    <tile id="5" x="72" y="104"/>
+    <tile id="2" x="104" y="96"/>
+    <tile id="2" x="248" y="96"/>
+    <tile id="0" x="208" y="96"/>
+    <tile id="1" x="96" y="96"/>
+    <tile id="1" x="216" y="96"/>
+    <tile id="1" x="224" y="96"/>
+    <tile id="1" x="232" y="96"/>
+    <tile id="1" x="240" y="96"/>
+    <tile id="6" x="104" y="104"/>
+    <tile id="6" x="104" y="112"/>
+    <tile id="6" x="104" y="120"/>
+    <tile id="6" x="104" y="128"/>
+    <tile id="6" x="248" y="104"/>
+    <tile id="6" x="248" y="112"/>
+    <tile id="6" x="248" y="120"/>
+    <tile id="6" x="248" y="128"/>
+    <tile id="4" x="64" y="104"/>
+    <tile id="4" x="64" y="112"/>
+    <tile id="4" x="64" y="120"/>
+    <tile id="4" x="64" y="128"/>
+    <tile id="9" x="72" y="136"/>
+    <tile id="9" x="80" y="136"/>
+    <tile id="9" x="88" y="136"/>
+    <tile id="9" x="96" y="136"/>
+    <tile id="9" x="104" y="136"/>
+    <tile id="8" x="64" y="136"/>
+    <tile id="8" x="208" y="136"/>
+    <tile id="10" x="248" y="136"/>
+    <tile id="4" x="208" y="104"/>
+    <tile id="4" x="208" y="112"/>
+    <tile id="4" x="208" y="120"/>
+    <tile id="4" x="208" y="128"/>
+    <tile id="9" x="216" y="136"/>
+    <tile id="9" x="224" y="136"/>
+    <tile id="9" x="232" y="136"/>
+    <tile id="9" x="240" y="136"/>
+    <tile id="3" x="144" y="128"/>
+    <tile id="3" x="152" y="128"/>
+  </floor>
+  <rooms>
+    <room x="64" y="96">
+      <node x="104" y="136"/>
+    </room>
+    <room x="208" y="96">
+      <node x="248" y="136"/>
+    </room>
+    <room x="128" y="112">
+      <node x="184" y="120"/>
+    </room>
+  </rooms>
+  <entrances>
+    <entrance x="64" y="80" numOfGuests="2" minWalkingSpeed="10" maxWalkingSpeed="20" interval="1"/>
+    <entrance x="240" y="80" numOfGuests="2" minWalkingSpeed="10" maxWalkingSpeed="20" interval="1"/>
+    <entrance x="144" y="136" numOfGuests="2" minWalkingSpeed="10" maxWalkingSpeed="20" interval="1"/>
+  </entrances>
+  <walls set="walls" tileWidth="16" tileHeight="16">
+    <tile id="0" x="48" y="80"/>
+    <tile id="5" x="48" y="96"/>
+    <tile id="5" x="48" y="112"/>
+    <tile id="5" x="48" y="128"/>
+    <tile id="4" x="48" y="144"/>
+    <tile id="14" x="64" y="144"/>
+    <tile id="14" x="80" y="144"/>
+    <tile id="14" x="96" y="144"/>
+    <tile id="9" x="112" y="144"/>
+    <tile id="3" x="112" y="80"/>
+    <tile id="1" x="80" y="80"/>
+    <tile id="1" x="96" y="80"/>
+    <tile id="1" x="128" y="96"/>
+    <tile id="1" x="144" y="96"/>
+    <tile id="1" x="160" y="96"/>
+    <tile id="1" x="176" y="96"/>
+    <tile id="14" x="128" y="128"/>
+    <tile id="14" x="160" y="128"/>
+    <tile id="23" x="112" y="128"/>
+    <tile id="16" x="112" y="112"/>
+    <tile id="21" x="112" y="96"/>
+    <tile id="21" x="192" y="96"/>
+    <tile id="16" x="192" y="112"/>
+    <tile id="0" x="192" y="80"/>
+    <tile id="1" x="208" y="80"/>
+    <tile id="1" x="224" y="80"/>
+    <tile id="3" x="256" y="80"/>
+    <tile id="8" x="256" y="96"/>
+    <tile id="8" x="256" y="112"/>
+    <tile id="8" x="256" y="128"/>
+    <tile id="9" x="256" y="144"/>
+    <tile id="4" x="192" y="144"/>
+    <tile id="14" x="208" y="144"/>
+    <tile id="14" x="224" y="144"/>
+    <tile id="14" x="240" y="144"/>
+    <tile id="14" x="176" y="128"/>
+    <tile id="24" x="192" y="128"/>
+    <tile id="2" x="64" y="80"/>
+    <tile id="2" x="240" y="80"/>
+    <tile id="19" x="144" y="128"/>
+  </walls>
+  <wall_tops set="wall_tops" tileWidth="16" tileHeight="16">
+    <tile id="1" x="64" y="64"/>
+    <tile id="1" x="80" y="64"/>
+    <tile id="1" x="96" y="64"/>
+    <tile id="1" x="128" y="80"/>
+    <tile id="1" x="144" y="80"/>
+    <tile id="1" x="160" y="80"/>
+    <tile id="1" x="176" y="80"/>
+    <tile id="1" x="208" y="64"/>
+    <tile id="1" x="224" y="64"/>
+    <tile id="1" x="240" y="64"/>
+    <tile id="1" x="208" y="128"/>
+    <tile id="1" x="224" y="128"/>
+    <tile id="1" x="240" y="128"/>
+    <tile id="1" x="96" y="128"/>
+    <tile id="1" x="80" y="128"/>
+    <tile id="1" x="64" y="128"/>
+    <tile id="1" x="128" y="112"/>
+    <tile id="1" x="144" y="112"/>
+    <tile id="1" x="160" y="112"/>
+    <tile id="1" x="176" y="112"/>
+    <tile id="13" x="192" y="112"/>
+    <tile id="12" x="112" y="112"/>
+    <tile id="4" x="192" y="128"/>
+    <tile id="4" x="48" y="128"/>
+    <tile id="0" x="48" y="64"/>
+    <tile id="2" x="112" y="64"/>
+    <tile id="2" x="256" y="64"/>
+    <tile id="0" x="192" y="64"/>
+    <tile id="5" x="256" y="128"/>
+    <tile id="5" x="112" y="128"/>
+    <tile id="9" x="112" y="96"/>
+    <tile id="9" x="192" y="96"/>
+    <tile id="2" x="192" y="80"/>
+    <tile id="0" x="112" y="80"/>
+  </wall_tops>
+</level>
